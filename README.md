@@ -46,5 +46,5 @@ gulp
 
 ```
 gulp build
-git push origin `git subtree split --prefix dist master`:master --force
+git push origin `git subtree split --prefix dist gh-pages`:master --force
 ```
