@@ -1,0 +1,31 @@
+<!--if you'd like to have the navbar and or header on every page, move it up a level to app.html!-->
+<header>
+	<navbar></navbar>
+</header>
+
+<main>
+	<div class="md-padding" layout="column">
+		<div flex>
+			<h2>
+	          <span>Nossos Projetos</span>
+	        </h2>
+
+			<md-divider></md-divider>
+
+			<md-content class="md-padding" layout="column" ng-repeat="lista in vm.cartoes">
+				<div flex layout="row">
+					<cartao-projeto flex="33" ng-repeat="cartao in lista" info="cartao"></cartao-projeto>
+				</div>
+			</md-content>
+		</div>
+
+		<div flex>
+			<h2>
+	          <span>Nosso Time</span>
+	        </h2>
+
+			<md-divider></md-divider>
+		</div>
+	</div>
+
+</main>
