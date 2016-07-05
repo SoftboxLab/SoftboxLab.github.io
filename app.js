@@ -280,7 +280,7 @@ $__System.register('13', ['4', '12'], function (_export) {
                                 chunk.push({
                                     nome: repos[i].name,
                                     descricao: repos[i].description,
-                                    link: repos[i].url,
+                                    link: repos[i].html_url,
                                     data: repos[i]
                                 });
 
