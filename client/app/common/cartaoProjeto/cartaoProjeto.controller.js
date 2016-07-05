@@ -3,8 +3,6 @@ class CartaoProjetoController {
 		'ngInject';
 
 		this.name = 'cartaoProjeto';
-
-		console.log(GitHub.getRepos());
 	}
 }
 
