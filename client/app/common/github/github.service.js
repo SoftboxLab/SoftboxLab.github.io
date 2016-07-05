@@ -23,7 +23,7 @@ export default class GitHub {
                     chunk.push({
                         nome: repos[i].name,
                         descricao: repos[i].description,
-                        link: repos[i].url,
+                        link: repos[i].html_url,
                         data: repos[i]
                     });
 
