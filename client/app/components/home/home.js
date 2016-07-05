@@ -7,7 +7,7 @@ let homeModule = angular.module('home', [
 ])
 .config(($stateProvider, $urlRouterProvider)=>{
 	$urlRouterProvider.otherwise('/');
-	
+
 	$stateProvider
 		.state('home', {
 			url: '/',
