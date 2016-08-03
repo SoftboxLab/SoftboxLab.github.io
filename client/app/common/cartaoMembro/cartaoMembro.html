@@ -1,0 +1,13 @@
+<md-card>
+	<md-card-title>
+		<md-card-media>
+			<img class="profile-picture round-picture" ng-src="{{vm.membro.avatar_url}}"/>
+		</md-card-media>
+		<md-card-title-text>
+			<span class="md-headline">{{vm.membro.login}}</span>
+			<span class="md-subhead">{{vm.membro.type}}</span>
+			<md-button href="{{vm.membro.html_url}}" target="_blank">Perfil</md-button>
+		</md-card-title-text>
+	</md-card-title>
+</md-card>
+<h1>{{ vm.membro.nome }}</h1>
