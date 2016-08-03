@@ -25,6 +25,12 @@
 	        </h2>
 
 			<md-divider></md-divider>
+
+			<md-content class="md-padding" layout="column">
+				<div flex layout="row">
+					<cartao-membro flex="25" ng-repeat="membro in vm.membros" membro="membro"></cartao-membro>
+				</div>
+			</md-content>
 		</div>
 	</div>
 

@@ -9,6 +9,10 @@ class HomeController {
 		GitHub.getRepos().then((res) => {
 			this.cartoes = res;
 		});
+
+		GitHub.getOrganizationMembers().then((res) => {
+			this.membros = res;
+		});
     }
 }
 
