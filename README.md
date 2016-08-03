@@ -48,3 +48,6 @@ gulp
 gulp build
 git push origin `git subtree split --prefix dist gh-pages`:master --force
 ```
+
+# Listagem de membros
+Os membros listados são aqueles que estão dentro do grupo SoftboxLab e que alteraram sua exibição para "pública".
