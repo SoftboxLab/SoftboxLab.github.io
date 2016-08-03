@@ -5,6 +5,15 @@ export default class GitHub {
         this._$http = $http;
     }
 
+    getOrganizationMembers() {
+        return this._$http({
+            url: 'https://api.github.com/orgs/SoftboxLab/members',
+            method: 'GET'
+        }).then((res) => {
+            return res.data;
+        });
+    }
+
     getRepos() {
         return this._$http({
             url: 'https://api.github.com/orgs/SoftboxLab/repos',
